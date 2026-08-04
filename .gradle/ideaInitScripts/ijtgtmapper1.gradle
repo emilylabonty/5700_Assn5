@@ -1,0 +1,17 @@
+ext.pathMapper = [:]
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/util_rt.jar', '/tmp/4PVcoZ/util_rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/external-system-rt.jar', '/tmp/4PVcoZ/external-system-rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/plugins/gradle-plugin/lib/gradle-tooling-extension-api.jar', '/tmp/426ulm/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/plugins/gradle-plugin/lib/gradle-tooling-extension-impl.jar', '/tmp/426ulm/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/util-8.jar', '/tmp/4PVcoZ/util-8.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/intellij.libraries.gson.jar', '/tmp/4PVcoZ/intellij.libraries.gson.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/intellij.libraries.ion.jar', '/tmp/4PVcoZ/intellij.libraries.ion.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/intellij.libraries.guava.jar', '/tmp/4PVcoZ/intellij.libraries.guava.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/intellij.libraries.commons.lang3.jar', '/tmp/4PVcoZ/intellij.libraries.commons.lang3.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/trove.jar', '/tmp/4PVcoZ/trove.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/lib/opentelemetry.jar', '/tmp/4PVcoZ/opentelemetry.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/plugins/Kotlin/lib/kotlin-gradle-tooling.jar', '/tmp/P7uxPZ/kotlin-gradle-tooling.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/plugins/ktor/lib/modules/intellij.ktor.run.gradle.tooling.jar', '/tmp/eOmeS1/intellij.ktor.run.gradle.tooling.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2026.1.3/plugins/compose-ide-plugin/lib/modules/intellij.compose.ide.plugin.gradleTooling.rt.jar', '/tmp/Vo8vRk/intellij.compose.ide.plugin.gradleTooling.rt.jar')
+ext.pathMapper.put("<<target java executable path>>", '/usr/lib/jvm/default-java/bin/java')
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
