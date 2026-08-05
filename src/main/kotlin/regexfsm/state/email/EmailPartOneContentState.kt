@@ -3,13 +3,12 @@ package regexfsm.state.email
 import regexfsm.state.InvalidState
 import regexfsm.state.State
 
-class EmailAfterDotState : State {
+class EmailPartOneContentState : State {
     override fun next(character: String): State {
         return when {
             character == " " -> InvalidState
-            character == "@" -> InvalidState
-            character == "." -> InvalidState
-            else -> EmailPartThreeState()
+            character == "@" -> EmailAfterAtState()
+            else -> this
         }
     }
 
